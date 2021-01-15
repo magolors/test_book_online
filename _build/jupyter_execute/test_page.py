@@ -22,6 +22,7 @@ ax.plot(x, y)
 plt.show()
 
 
-# ```{note}
-# This is an example of directives.
+# ```{admonition} seealso
+# :class: seealso
+# Changed
 # ```
