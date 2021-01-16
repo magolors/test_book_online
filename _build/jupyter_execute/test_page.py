@@ -3,7 +3,7 @@
 
 # # test page
 
-# In[11]:
+# In[1]:
 
 
 import numpy as np
@@ -11,7 +11,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-# In[12]:
+# In[2]:
 
 
 x = np.array([i for i in range(10)])
@@ -22,7 +22,12 @@ ax.plot(x, y)
 plt.show()
 
 
-# ```{admonition} seealso
+# ```{admonition} 確率密度関数と分布関数
 # :class: seealso
-# Changed
+# 
+# \begin{gather*}
+# F(x) = \int_{-\infty}^x f(t)dt \\
+# P(a\leq X\leq b) = F(b)-F(a) = \int_{a}^b f(t)dt
+# \end{gather*}
+# 
 # ```

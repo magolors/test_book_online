@@ -1,0 +1,7 @@
+a = 3
+b = 4
+print(a*b)
+
+!jupyter-book create --help
+
+!jupyter-book create --help
