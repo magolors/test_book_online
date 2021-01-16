@@ -187,11 +187,11 @@
         aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
     <div class="dropdown-buttons sourcebuttons">
         <a class="repository-button"
-            href="https://github.com/executablebooks/jupyter-book"><button type="button" class="btn btn-secondary topbarbtn"
+            href="https://github.com/magolors/test_book_online"><button type="button" class="btn btn-secondary topbarbtn"
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fdirectives.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/magolors/test_book_online/issues/new?title=Issue%20on%20page%20%2Fdirectives.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -212,7 +212,7 @@
         aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
     <div class="dropdown-buttons">
         
-        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/docs/directives.md"><button type="button"
+        <a class="binder-button" href="https://mybinder.org/v2/gh/magolors/test_book_online/master?urlpath=tree/docs/directives.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
                 data-placement="left"><img class="binder-button-logo"
                     src="_static/images/logo_binder.svg"
@@ -291,25 +291,41 @@
 <span class="p">}</span>
 </pre></div>
 </div>
-<p><span class="fa fa-check text-success mr-1"></span> This is an example of Roles (check mark &amp; success color).</p>
-<p><span class="fa fa-check text-info mr-1"></span> This is an example of Roles (check mark &amp; info color).</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="mi">3</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="mi">3</span>
 <span class="n">b</span> <span class="o">=</span> <span class="mi">4</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="o">*</span><span class="n">b</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>12
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell tag_remove-output docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!jupyter-book create --help
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">!</span>jupyter-book create --help
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Usage: jupyter-book create [OPTIONS] PATH_BOOK
+
+  Create a Jupyter Book template that you can customize.
+
+Options:
+  --cookiecutter  Use cookiecutter to interactively create a Jupyter Book
+                  template.
+
+  -h, --help      Show this message and exit.
+</pre></div>
+</div>
+</div>
 </div>
 <div class="highlight-md notranslate"><div class="highlight"><pre><span></span>```{directivename} arg1 arg2
 :key1: metadata1
@@ -318,6 +334,8 @@ My directive content.
 ```
 </pre></div>
 </div>
+<p><span class="fa fa-check text-success mr-1"></span> This is an example of Roles (check mark &amp; success color).</p>
+<p><span class="fa fa-check text-info mr-1"></span> This is an example of Roles (check mark &amp; info color).</p>
 </div>
 
     <script type="text/x-thebe-config">

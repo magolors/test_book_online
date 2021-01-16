@@ -72,11 +72,6 @@ int main(int argc, char *argv[]) {
 ```
 
 
-{fa}`check,text-success mr-1` This is an example of Roles (check mark & success color).
-
-{fa}`check,text-info mr-1` This is an example of Roles (check mark & info color).
-
-
 ```{code-cell} 
 a = 3
 b = 4
@@ -100,3 +95,10 @@ print(a*b)
 My directive content.
 ```
 ````
+
+
+
+{fa}`check,text-success mr-1` This is an example of Roles (check mark & success color).
+
+{fa}`check,text-info mr-1` This is an example of Roles (check mark & info color).
+
