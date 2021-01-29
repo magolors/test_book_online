@@ -87,6 +87,15 @@ get_ipython().system('jupyter-book create --help')
 # ```
 # ````
 # 
+# ````{toggle}
+# Some hidden toggle content!
+# 
+# ```{admonition} Hidden 
+# :class: info
+# このように隠すことができます。
+# ```
+# ````
+# 
 # 
 # 
 # {fa}`check,text-success mr-1` This is an example of Roles (check mark & success color).
